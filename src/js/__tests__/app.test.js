@@ -18,4 +18,5 @@ test('sorting characters', () => {
     { name: 'мечник', health: 10 },
   ];
   expect(sorted).toEqual(expected);
+  expect(sorted).toBe(expected);
 });
